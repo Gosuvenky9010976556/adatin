@@ -1,0 +1,113 @@
+11th Oct
+
+
+
+2 teams
+
+Team 1 : Avengers ( Hybrid Framework - TestNG , Data Driven , Keyword (properties) + POM patter)
+
+Team 2 : Testing Dragons (BDD Framework - Cucumber API , Junit , POM Pattern)
+
+
+
+Avengers :
+
+-Gowthami
+-Swetha
+-Nirosha
+-Rajanikanth
+-Venky
+
+QA Env:
+
+https://adactinhotelapp.com/
+
+Project Management Tool or Build Tool : Maven
+
+HybridAutomation
+
+src/test/java
+	|
+	 -- base
+	|
+	 -- pages
+	|
+	 -- utils
+        | 
+         -- testscripts
+		|
+		 --smoke
+		|
+		 --regression
+        |
+         -- listeners
+
+
+src/test/resources
+	|
+	 -- excels
+	        |
+                 -- testdata
+        |
+         -- json 
+
+drivers
+    -chromedriver.exe
+    -geckodriver.exe
+reports
+   
+screenshots
+
+testng.xml
+
+pom.xml
+
+====================================================================
+Testing Dragons
+
+- Gopi
+- Madhavi
+- Roja
+- Vyshnavi
+- Reyaz
+
+QA Env:
+
+https://adactinhotelapp.com/
+
+Project Management Tool or Build Tool : Maven
+
+(BDD Framework - Cucumber API , Junit , POM Pattern)
+
+BDDAutomation
+
+src/test/java
+	|
+         -- steps 
+             |
+              -- GenericStepDefinitions
+             |
+              -- StepDefinitions
+	|
+         -- pages
+	|
+         -- runner
+
+src/test/resources
+	|
+	 features
+
+drivers
+    -chromedriver.exe
+    -geckodriver.exe
+reports
+   
+screenshots
+
+pom.xml
+
+
+
+
+
+

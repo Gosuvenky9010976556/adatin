@@ -1,0 +1,19 @@
+Oct 7th:
+
+
+ <!-- https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
+<dependency>
+    <groupId>io.github.bonigarcia</groupId>
+    <artifactId>webdrivermanager</artifactId>
+    <version>5.3.0</version>
+</dependency>
+
+
+WebDriverManager.chromedriver().setup();
+		
+new ChromeDriver();
+----------------------------------------------
+WebDriverManager.firefoxdriver().setup();
+		
+WebDriver driver=new FirefoxDriver();
+

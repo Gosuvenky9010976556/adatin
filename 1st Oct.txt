@@ -1,0 +1,113 @@
+Oct 1st
+
+Recap of Frameworks 
+
+		Framework
+
+
+
+	inbuilt			user defined
+
+  -  JUNIT			- Data driven Framework
+  -  TestNG                     - Keyword Driven Framework
+  -  PyTest			- Hybrid Framework (with Page Object Model design pattern)
+  -  Nunit			- BDD (Behaviour Driven Development)
+				   -Cucumber 
+                                   -JBehave
+
+
+pom.xml
+
+
+**************************************
+Data Driven Framework
+**************************************
+
+Data in form of Excel
+
+			excel
+
+
+		.xls		.xlsx
+
+ 	      JXL jar		
+
+	      Apache POI	Apache POI
+
+
+----------------------------------
+
+Apache poi jars
+
+-----------------------------------
+
+
+Maven :
+
+Project Management tool 
+
+
+maven download and configure
+
+
+MAVEN_HOME F:\KosmikOctProj8pm\apache-maven-3.8.6
+
+M2_HOME F:\KosmikOctProj8pm\apache-maven-3.8.6\bin
+
+path F:\KosmikOctProj8pm\apache-maven-3.8.6\bin
+
+go to cmd :
+
+mvn -version
+
+
+src/main/java
+src/main/resources
+src/test/java  ==> java stuff ( java classes means .java)
+src/test/resources ==> non-java stuff ( excel files , txt files , properties etc)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
